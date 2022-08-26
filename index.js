@@ -8,7 +8,7 @@ function iniciar() {
     response.write('Hola Mundo con NodeJS');
     response.end();
   }
-  const port = process.env.PORT || 8080;
+  const port = process.env.PORT || 9000;
   http.createServer(onRequest).listen(port);
   console.log('database connected on port', port);
 }
